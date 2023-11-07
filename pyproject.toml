@@ -10,6 +10,9 @@ license = {file = "LICENSE.txt"}
 requires-python = "~=3.8"
 dependencies = ["pillow"]
 
+[project.optional-dependencies]
+dev = ["pytest"]
+
 [project.urls]
 repository = "https://github.com/uyar/imgutils"
 
