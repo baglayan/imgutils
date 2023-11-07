@@ -11,7 +11,7 @@ requires-python = "~=3.8"
 dependencies = ["pillow"]
 
 [project.optional-dependencies]
-dev = ["pytest", "pytest-cov"]
+dev = ["pytest", "pytest-cov", "flake8", "flake8-isort"]
 
 [project.urls]
 repository = "https://github.com/uyar/imgutils"
