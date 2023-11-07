@@ -24,3 +24,9 @@ def get_height(img_file):
 	with Image.open(img_file) as img:
 		height = img.height
 	return height
+
+def get_aspect_ratio(img_file):
+	with Image.open(img_file) as img:
+		width = img.width
+		height = img.height
+	return width / height
