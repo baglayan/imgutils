@@ -19,3 +19,8 @@ def get_width(img_file):
 	with Image.open(img_file) as img:
 		width = img.width
 	return width
+
+def get_height(img_file):
+	with Image.open(img_file) as img:
+		height = img.height
+	return height
